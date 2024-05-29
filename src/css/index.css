@@ -147,7 +147,7 @@ article picture {
         "invitacionRegistrate"
         "paraQuien"
         "invitacionRegistrate2";
-    grid-template-rows: 4% 5% 30% 2% 57% 2%;
+    grid-template-rows: 4% 5% 29% 2% 57% 3%;
 }
 
 .invitacion {
@@ -182,7 +182,7 @@ article picture {
 
         img {
             width: 100%;
-            
+
         }
     }
 }
@@ -224,17 +224,20 @@ article picture {
 .queTiene {
     grid-area: queTiene;
     width: 90%;
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-top: 20px;
 }
-.invitacionRegistrate{
+
+.invitacionRegistrate {
     grid-area: invitacionRegistrate;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90%;
-    margin: 20px auto;
-    .registrate2{
-        
+    margin: 0 auto;
+
+    .registrate2 {
+
         border: 0px;
         border-radius: 45px;
         background-color: rgb(87, 165, 214);
@@ -248,7 +251,7 @@ article picture {
     }
 }
 
-.paraQuien{
+.paraQuien {
     grid-area: paraQuien;
     display: flex;
     flex-direction: column;
@@ -256,28 +259,32 @@ article picture {
     align-items: center;
     width: 90%;
     margin: 20px auto;
-    article{
+
+    article {
         margin-top: 50px;
         background-color: #ffffff;
         border-radius: 15px;
         max-width: 400px;
         overflow: hidden;
-        box-shadow: 0px 10px 10px rgba(0,0,0,0.3) ;
-        h2, p{
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+
+        h2,
+        p {
             margin: 30px;
         }
     }
 }
 
-.invitacionRegistrate2{
+.invitacionRegistrate2 {
     grid-area: invitacionRegistrate2;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90%;
     margin: 20px auto;
-    .registrate2{
-        
+
+    .registrate2 {
+
         border: 0px;
         border-radius: 45px;
         background-color: rgb(87, 165, 214);
@@ -290,30 +297,37 @@ article picture {
         border: 2px solid #ffffff;
     }
 }
+
 .footer {
     grid-area: footer;
     width: 90%;
     margin: 20px auto;
-    h1{
+
+    h1 {
         font-size: 40px;
         margin: 0;
         color: rgb(71, 71, 71);
         text-align: left;
     }
-    p,a{
+
+    p,
+    a {
         color: rgb(71, 71, 71);
     }
-    .contactanos{
+
+    .contactanos {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .info{
+
+    .info {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        article p{
+
+        article p {
             text-align: right;
         }
     }
@@ -327,9 +341,9 @@ article picture {
     padding: 0;
     font-family: "Poppins", sans-serif;
     justify-content: center;
-  }
-  
-  .wrapper .icon {
+}
+
+.wrapper .icon {
     position: relative;
     background: #fff;
     border-radius: 50%;
@@ -344,9 +358,9 @@ article picture {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
+}
+
+.wrapper .tooltip {
     position: absolute;
     top: 0;
     font-size: 14px;
@@ -358,9 +372,9 @@ article picture {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
+}
+
+.wrapper .tooltip::before {
     position: absolute;
     content: "";
     height: 8px;
@@ -370,38 +384,37 @@ article picture {
     left: 50%;
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover .tooltip {
     top: -45px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapper .facebook:hover,
-  .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
     background: #1877f2;
     color: #fff;
-  }
-  
-  .wrapper .whatsapp:hover,
-  .wrapper .whatsapp:hover .tooltip,
-  .wrapper .whatsapp:hover .tooltip::before {
+}
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
     background: #1df276;
     color: #fff;
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
     background: #e4405f;
     color: #fff;
-  }
-  
+}
