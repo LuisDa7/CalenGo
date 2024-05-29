@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#575756;}
+	.st2{fill:url(#SVGID_00000127022362235377626850000013162407354125456545_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="224.2744" y1="540" x2="740.2863" y2="540">
+	<stop  offset="0" style="stop-color:#2581C4"/>
+	<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+</linearGradient>
+<path class="st0" d="M529.72,756.75c-119.71,0-216.75-97.04-216.75-216.75s97.04-216.75,216.75-216.75
+	c54.36,0,104.04,20.01,142.08,53.06l68.49-57.57c-54.79-52.17-128.94-84.19-210.57-84.19c-168.69,0-305.44,136.75-305.44,305.44
+	s136.75,305.44,305.44,305.44c80.87,0,154.4-31.44,209.05-82.75l-67.44-58.59C633.33,736.91,583.84,756.75,529.72,756.75z"/>
+<path class="st1" d="M540,803.75c-145.67,0-263.75-118.08-263.75-263.75S394.33,276.25,540,276.25c66.14,0,126.6,24.35,172.89,64.57
+	l83.34-70.05C729.55,207.3,639.33,168.33,540,168.33c-205.27,0-371.67,166.4-371.67,371.67S334.73,911.67,540,911.67
+	c98.41,0,187.88-38.25,254.37-100.69l-82.07-71.29C666.08,779.61,605.86,803.75,540,803.75z"/>
+<path class="st1" d="M0,415.31"/>
+<linearGradient id="SVGID_00000023984746705739812760000005291065523919011510_" gradientUnits="userSpaceOnUse" x1="551.8121" y1="677.2631" x2="859.1985" y2="677.2631">
+	<stop  offset="0" style="stop-color:#2581C4;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#2581C4"/>
+</linearGradient>
+<polygon style="fill:url(#SVGID_00000023984746705739812760000005291065523919011510_);" points="859.2,808.54 551.81,545.98 
+	859.2,545.98 "/>
+<polygon class="st1" points="859.2,772.62 593.87,545.98 859.2,545.98 "/>
+</svg>

@@ -1,0 +1,407 @@
+html {
+    background-color: #e8e8e8;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /*#0C81B8*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+section h1 {
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+    color: #043962;
+}
+
+article h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: #043962;
+}
+
+section p {
+    color: #043962;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+article picture {
+    display: flex;
+    justify-content: center;
+
+    img {
+        margin: 30px;
+    }
+
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "header"
+        "entrada"
+        "main"
+        "footer";
+    grid-template-rows: 2% 1% 94% 3%;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h1 {
+        height: 50px;
+        align-self: center;
+        font-size: 45px;
+        margin: 0;
+        color: rgb(71, 71, 71);
+    }
+
+    .logoContainer {
+        display: flex;
+
+    }
+
+    button {
+        height: 50px;
+        width: 53px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 10px;
+        background: #e8e8e8;
+        cursor: pointer;
+        border: 1px solid #e8e8e8;
+        box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+        transition: box-shadow 0.7s ease;
+    }
+
+    button:active {
+        box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    }
+}
+
+.entrada {
+    grid-area: entrada;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    .ingresa {
+        border: 0px;
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+        color: #043962;
+        height: 50px;
+        width: 140px;
+    }
+
+    .ingresa:active {
+        border: 2px solid #043962;
+    }
+
+    .registrate {
+        border: 0px;
+        border-radius: 25px;
+        background-color: rgb(87, 165, 214);
+        color: #ffffff;
+        height: 50px;
+        width: 170px;
+    }
+
+    .registrate:active {
+        border: 2px solid #ffffff;
+    }
+}
+
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        "invitacion"
+        "slider"
+        "queTiene"
+        "invitacionRegistrate"
+        "paraQuien"
+        "invitacionRegistrate2";
+    grid-template-rows: 4% 5% 30% 2% 57% 2%;
+}
+
+.invitacion {
+    grid-area: invitacion;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.slider {
+    grid-area: slider;
+    width: 90%;
+    margin: 20px auto;
+
+    .sliderArticulo {
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        overflow: hidden;
+
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            width: 400%;
+            animation: slide 20s infinite alternate ease-in-out;
+        }
+
+        li {
+            width: 100%;
+            list-style: none;
+        }
+
+        img {
+            width: 100%;
+            
+        }
+    }
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.queTiene {
+    grid-area: queTiene;
+    width: 90%;
+    margin: 20px auto;
+}
+.invitacionRegistrate{
+    grid-area: invitacionRegistrate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+    .registrate2{
+        
+        border: 0px;
+        border-radius: 45px;
+        background-color: rgb(87, 165, 214);
+        color: #ffffff;
+        height: 70px;
+        width: 260px;
+    }
+
+    .registrate2:active {
+        border: 2px solid #ffffff;
+    }
+}
+
+.paraQuien{
+    grid-area: paraQuien;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    article{
+        margin-top: 50px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        max-width: 400px;
+        overflow: hidden;
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.3) ;
+        h2, p{
+            margin: 30px;
+        }
+    }
+}
+
+.invitacionRegistrate2{
+    grid-area: invitacionRegistrate2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+    .registrate2{
+        
+        border: 0px;
+        border-radius: 45px;
+        background-color: rgb(87, 165, 214);
+        color: #ffffff;
+        height: 70px;
+        width: 260px;
+    }
+
+    .registrate2:active {
+        border: 2px solid #ffffff;
+    }
+}
+.footer {
+    grid-area: footer;
+    width: 90%;
+    margin: 20px auto;
+    h1{
+        font-size: 40px;
+        margin: 0;
+        color: rgb(71, 71, 71);
+        text-align: left;
+    }
+    p,a{
+        color: rgb(71, 71, 71);
+    }
+    .contactanos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        article p{
+            text-align: right;
+        }
+    }
+}
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    height: 50%;
+    width: 100%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  
