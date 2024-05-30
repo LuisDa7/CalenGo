@@ -61,7 +61,7 @@ article picture {
         "entrada"
         "main"
         "footer";
-    grid-template-rows: 2% 1% 94% 3%;
+    grid-template-rows: 2% 1% 94% 4%;
 }
 
 .header {
@@ -69,7 +69,10 @@ article picture {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    background-image: url('../../public/Fondos/index/triangulos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     h1 {
         height: 50px;
         align-self: center;
@@ -109,6 +112,7 @@ article picture {
     justify-content: center;
     align-items: center;
     gap: 10%;
+    
 
     .ingresa {
         border: 0px;
@@ -147,23 +151,32 @@ article picture {
         "invitacionRegistrate"
         "paraQuien"
         "invitacionRegistrate2";
-    grid-template-rows: 4% 5% 29% 2% 57% 3%;
+    grid-template-rows: 4% 5% 30% 1% 57% 3%;
 }
 
 .invitacion {
     grid-area: invitacion;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     width: 90%;
     margin: 20px auto;
 }
 
 .slider {
     grid-area: slider;
-    width: 90%;
-    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('../../public/Fondos/index/triangulos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
     .sliderArticulo {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
         border-radius: 30px;
         overflow: hidden;
 
@@ -225,7 +238,7 @@ article picture {
     grid-area: queTiene;
     width: 90%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin: 0 20px;
 }
 
 .invitacionRegistrate {
@@ -300,8 +313,11 @@ article picture {
 
 .footer {
     grid-area: footer;
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    background-image: url('../../public/Fondos/index/triangulos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
     h1 {
         font-size: 40px;
@@ -317,7 +333,7 @@ article picture {
 
     .contactanos {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -325,7 +341,7 @@ article picture {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         article p {
             text-align: right;
