@@ -143,20 +143,13 @@ article picture {
 }
 
 .main {
-    grid-area: main;
-    display: grid;
-    grid-template-areas:
-        "invitacion"
-        "slider"
-        "queTiene"
-        "invitacionRegistrate"
-        "paraQuien"
-        "invitacionRegistrate2";
-    grid-template-rows: 4% 75vw 31% 1% 57% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .invitacion {
-    grid-area: invitacion;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -165,7 +158,6 @@ article picture {
 }
 
 .slider {
-    grid-area: slider;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,14 +225,12 @@ article picture {
 }
 
 .queTiene {
-    grid-area: queTiene;
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
 }
 
 .invitacionRegistrate {
-    grid-area: invitacionRegistrate;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,7 +253,6 @@ article picture {
 }
 
 .paraQuien {
-    grid-area: paraQuien;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,7 +276,6 @@ article picture {
 }
 
 .invitacionRegistrate2 {
-    grid-area: invitacionRegistrate2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -434,16 +422,12 @@ article picture {
 }
 
 @media (min-width: 768px) {
-    .grid-container {
         .grid-container {
-            display: grid;
-            gap: 10px;
             grid-template-areas:
-                "header header"
-                "entrada entrada"
-                "main main"
-                "footer footer";
-            grid-template-rows: 2% 1% 94% 4%;
+                "header"
+                "entrada"
+                "main"
+                "footer";
+            grid-template-rows: 9% 1% 94% 4%;
         }
-    }
 }
