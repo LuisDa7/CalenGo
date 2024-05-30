@@ -1,6 +1,8 @@
 import React from "react"
 import Footer from "./components/footer"
 import Main from "./components/main"
+import EntradaPC from "./components/entradaPC"
+import BotonesHeader from "./components/botonesHeader"
 
 function App() {
 
@@ -11,12 +13,10 @@ function App() {
           <img src="./public/logo.svg" alt="Logo de CalenGo " width="150px" />
         </picture>
         <h1 className="titulo">CalenGo</h1>
-        <button><img src="./public/iconos/index/menu.png" alt="Menú" width="40" /></button>
+        <BotonesHeader></BotonesHeader>
+        
       </header>
-      <section className="entrada">
-        <button className="ingresa">Ingresa</button>
-        <button className="registrate">Regístrate</button>
-      </section>
+      <EntradaPC></EntradaPC>
       <Main></Main>
       <Footer></Footer>
     </div>
