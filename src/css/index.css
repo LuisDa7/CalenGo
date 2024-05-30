@@ -73,6 +73,7 @@ article picture {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     h1 {
         height: 50px;
         align-self: center;
@@ -112,7 +113,7 @@ article picture {
     justify-content: center;
     align-items: center;
     gap: 10%;
-    
+
 
     .ingresa {
         border: 0px;
@@ -151,7 +152,7 @@ article picture {
         "invitacionRegistrate"
         "paraQuien"
         "invitacionRegistrate2";
-    grid-template-rows: 4% 5% 30% 1% 57% 3%;
+    grid-template-rows: 4% 75vw 31% 1% 57% 2%;
 }
 
 .invitacion {
@@ -168,15 +169,14 @@ article picture {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     background-image: url('../../public/Fondos/index/triangulos.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
     .sliderArticulo {
-        width: 90%;
-        height: 90%;
+        max-height: 90%;
+        max-width: 90%;
         border-radius: 30px;
         overflow: hidden;
 
@@ -189,13 +189,11 @@ article picture {
         }
 
         li {
-            width: 100%;
             list-style: none;
         }
 
         img {
             width: 100%;
-
         }
     }
 }
@@ -238,7 +236,7 @@ article picture {
     grid-area: queTiene;
     width: 90%;
     margin: 0 auto;
-    margin: 0 20px;
+    margin-top: 10px;
 }
 
 .invitacionRegistrate {
@@ -433,4 +431,19 @@ article picture {
 .wrapper .instagram:hover .tooltip::before {
     background: #e4405f;
     color: #fff;
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-areas:
+                "header header"
+                "entrada entrada"
+                "main main"
+                "footer footer";
+            grid-template-rows: 2% 1% 94% 4%;
+        }
+    }
 }
