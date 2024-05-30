@@ -113,8 +113,7 @@ article picture {
     justify-content: center;
     align-items: center;
     gap: 10%;
-
-
+    
     .ingresa {
         border: 0px;
         border-radius: 25px;
@@ -167,8 +166,8 @@ article picture {
     background-attachment: fixed;
 
     .sliderArticulo {
-        max-height: 90%;
-        max-width: 90%;
+        height: 80%;
+        width: 80%;
         border-radius: 30px;
         overflow: hidden;
 
@@ -234,8 +233,12 @@ article picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    background-image: url('../../public/Fondos/index/triangulos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
     .registrate2 {
 
@@ -422,12 +425,42 @@ article picture {
 }
 
 @media (min-width: 768px) {
-        .grid-container {
-            grid-template-areas:
-                "header"
-                "entrada"
-                "main"
-                "footer";
-            grid-template-rows: 9% 1% 94% 4%;
+    .grid-container {
+        grid-template-areas:
+            "header"
+            "entrada"
+            "main"
+            "footer";
+        grid-template-rows: 3% 2% 94% 4%;
+    }
+    .header h1{
+        font-size: 55px;
+    }
+    .entrada {
+        .ingresa, .registrate{
+            width: 250px;
+            height: 70px;
+            border-radius: 40px;
         }
+    }
+}
+@media (min-width: 992px) {
+    .grid-container {
+        grid-template-areas:
+            "header"
+            "entrada"
+            "main"
+            "footer";
+        grid-template-rows: 3% 2% 94% 4%;
+    }
+    .header h1{
+        font-size: 55px;
+    }
+    .entrada {
+        .ingresa, .registrate{
+            width: 250px;
+            height: 70px;
+            border-radius: 40px;
+        }
+    }
 }
