@@ -66,49 +66,52 @@ export default function Main() {
       </section>
       <section className="paraQuien">
         <h1>¿Para quienes es este software?</h1>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/1.png" alt="Imagen de salón de belleza" width="400px" />
-          <h2>Salones de belleza</h2>
-          <p>Nuestro software ayudará a los salones de belleza con su gestión de citas de forma fácil y flexible</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/2.png" alt="Imagen de barberia" width="400px" />
-          <h2>Barberías</h2>
-          <p>CalenGo está preparado para ser utilizado por barberías, listo para optimizar el tiempo de estos negocios</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/3.png" alt="Imagen de spa" width="400px" />
-          <h2>Spa's y centros de masaje</h2>
-          <p>También, CalenGo proporciona sus inteligentes funciones a los centros de masajes y spa</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/4.png" alt="Imagen de centro médico" width="400px" />
-          <h2>Centros médicos</h2>
-          <p>Es realmente útil para los centros médicos, dirigido a consultorios que día a día atienden a muchas personas</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/5.png" alt="Imagen de entrenador personal" width="400px" />
-          <h2>Entrenadores personales</h2>
-          <p>CalenGo se complace en ayudar a los entrenadores personales, flexibilizando sus tareas diarias</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/6.png" alt="Imagen de groomers caninos" width="400px" />
-          <h2>Groomers caninos</h2>
-          <p>Nuestro software también está diseñado para groomers caninos y sus negocios, permitiéndoles gestionar sus actividades</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/7.png" alt="Imagen de tutor enseñando" width="400px" />
-          <h2>Tutores</h2>
-          <p>Los tutores también podrán beneficiarse de esta tecnología fácil de utilizar y agradable para todos</p>
-        </article>
-        <article>
-          <img src="./public/iconos/index/paraQuienes/8.png" alt="Imagen de fotógrafo" width="400px" />
-          <h2>Fotógrafos</h2>
-          <p>CalenGo es útil para fotógrafos, permitiéndoles tener control sobre sus sesiones y actividades</p>
+        <article className="contenedorParaQuienes">
+          <article>
+            <img src="./public/iconos/index/paraQuienes/1.png" alt="Imagen de salón de belleza" width="400px" />
+            <h2>Salones de belleza</h2>
+            <p>Nuestro software ayudará a los salones de belleza con su gestión de citas de forma fácil y flexible</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/2.png" alt="Imagen de barberia" width="400px" />
+            <h2>Barberías</h2>
+            <p>CalenGo está preparado para ser utilizado por barberías, listo para optimizar el tiempo de estos negocios</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/3.png" alt="Imagen de spa" width="400px" />
+            <h2>Spa's y centros de masaje</h2>
+            <p>También, CalenGo proporciona sus inteligentes funciones a los centros de masajes y spa</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/4.png" alt="Imagen de centro médico" width="400px" />
+            <h2>Centros médicos</h2>
+            <p>Es realmente útil para los centros médicos, dirigido a consultorios que día a día atienden a muchas personas</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/5.png" alt="Imagen de entrenador personal" width="400px" />
+            <h2>Entrenadores personales</h2>
+            <p>CalenGo se complace en ayudar a los entrenadores personales, flexibilizando sus tareas diarias</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/6.png" alt="Imagen de groomers caninos" width="400px" />
+            <h2>Groomers caninos</h2>
+            <p>Nuestro software también está diseñado para groomers caninos y sus negocios, permitiéndoles gestionar sus actividades</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/7.png" alt="Imagen de tutor enseñando" width="400px" />
+            <h2>Tutores</h2>
+            <p>Los tutores también podrán beneficiarse de esta tecnología fácil de utilizar y agradable para todos</p>
+          </article>
+          <article>
+            <img src="./public/iconos/index/paraQuienes/8.png" alt="Imagen de fotógrafo" width="400px" />
+            <h2>Fotógrafos</h2>
+            <p>CalenGo es útil para fotógrafos, permitiéndoles tener control sobre sus sesiones y actividades</p>
+          </article>
         </article>
       </section>
       <section className="precios">
         <h1>Precios</h1>
+        <p>CalenGo es gratis para emprendedores, si buscas algo más completo para empresas medianas y grandes, puedes ver nuestros paquetes aquí</p>
         <article className="card">
           <article className="headerCard">
             <span class="title">Beginner</span>
@@ -116,25 +119,25 @@ export default function Main() {
           </article>
           <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
           <ul class="lists">
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Aenean quis</span>
-						</li>
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Morbi semper</span>
-						</li>
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Tristique enim nec</span>
-						</li>
-					</ul>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Aenean quis</span>
+            </li>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Morbi semper</span>
+            </li>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Tristique enim nec</span>
+            </li>
+          </ul>
           <button type="button" class="empezar">Get Started</button>
         </article>
         <article className="card">
@@ -144,25 +147,25 @@ export default function Main() {
           </article>
           <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
           <ul class="lists">
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Aenean quis</span>
-						</li>
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Morbi semper</span>
-						</li>
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Tristique enim nec</span>
-						</li>
-					</ul>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Aenean quis</span>
+            </li>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Morbi semper</span>
+            </li>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Tristique enim nec</span>
+            </li>
+          </ul>
           <button type="button" class="empezar">Get Started</button>
         </article>
         <article className="card">
@@ -172,25 +175,25 @@ export default function Main() {
           </article>
           <p class="desc">Etiam ac convallis enim, eget euismod dolor.</p>
           <ul class="lists">
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Aenean quis</span>
-						</li>
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Morbi semper</span>
-						</li>
-						<li class="list">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-								<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-							</svg>
-							<span>Tristique enim nec</span>
-						</li>
-					</ul>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Aenean quis</span>
+            </li>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Morbi semper</span>
+            </li>
+            <li class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span>Tristique enim nec</span>
+            </li>
+          </ul>
           <button type="button" class="empezar">Get Started</button>
         </article>
       </section>

@@ -223,9 +223,18 @@ article picture {
 }
 
 .queTiene {
-    width: 90%;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
     margin: 0 auto;
-    margin-top: 10px;
+    background-color: #f8f6f6;
+
+    h1,
+    h2,
+    p {
+        margin: 15px;
+    }
+
 }
 
 .invitacionRegistrate {
@@ -233,7 +242,7 @@ article picture {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
     background-image: url('../../public/Fondos/index/triangulos.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,7 +271,7 @@ article picture {
     width: 90%;
     margin: 20px auto;
 
-    article {
+    .contenedorParaQuienes article {
         margin-top: 50px;
         background-color: #ffffff;
         border-radius: 15px;
@@ -276,13 +285,19 @@ article picture {
         }
     }
 }
-.precios{
+
+.precios {
     display: flex;
     background-image: linear-gradient(180deg, #e8e8e8 5%, #575756 95%);
     flex-direction: column;
     align-items: center;
     height: 100%;
+
+    h1 {
+        margin: 15px;
+    }
 }
+
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -294,55 +309,55 @@ article picture {
     border-radius: 15px;
     background-color: #ffffff;
     padding: 1.5rem;
-  }
-  
-  .headerCard {
+}
+
+.headerCard {
     display: flex;
     flex-direction: column;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 700;
     color: #043962;
-  }
-  
-  .price {
+}
+
+.price {
     font-size: 3.75rem;
     line-height: 1;
     font-weight: 700;
     color: #043962;
-  }
-  
-  .desc {
+}
+
+.desc {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     line-height: 1.625;
     color: #043962;
-  }
-  
-  .lists {
+}
+
+.lists {
     margin-bottom: 1.5rem;
     flex: 1 1 0%;
     color: #043962;
-  }
-  
-  .lists .list {
+}
+
+.lists .list {
     margin-bottom: 0.5rem;
     display: flex;
     margin-left: 0.5rem
-  }
-  
-  .lists .list svg {
+}
+
+.lists .list svg {
     height: 1.5rem;
     width: 1.5rem;
     flex-shrink: 0;
     margin-right: 0.5rem;
     color: rgba(87, 165, 214, 1);
-  }
-  
-  .empezar {
+}
+
+.empezar {
     border: none;
     outline: none;
     display: inline-block;
@@ -357,9 +372,9 @@ article picture {
     margin: 0 auto;
     text-align: center;
     color: rgb(255, 255, 255);
-  }
+}
 
-  .empezar:active {
+.empezar:active {
     border: 2px solid #ffffff;
 }
 
@@ -387,7 +402,8 @@ article picture {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        h2{
+
+        h2 {
             color: rgb(255, 255, 255);
         }
     }
@@ -497,7 +513,7 @@ article picture {
             "entrada"
             "main"
             "footer";
-            grid-template-rows: 2% 1% 96% 4%;
+        grid-template-rows: 2% 1.3% 96% 4%;
     }
 
     .header h1 {
@@ -511,6 +527,12 @@ article picture {
             width: 250px;
             height: 70px;
             border-radius: 40px;
+        }
+    }
+
+    .invitacionRegistrate {
+        .registrate2 {
+            width: 300px;
         }
     }
 }
@@ -559,6 +581,7 @@ article picture {
                 box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
                 transition: box-shadow 0.7s ease;
             }
+
             .menu:active {
                 box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
             }
@@ -574,4 +597,15 @@ article picture {
             border-radius: 40px;
         }
     }
+
+    .paraQuien {
+        .contenedorParaQuienes{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        
+    }
+
 }
