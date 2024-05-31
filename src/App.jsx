@@ -14,7 +14,6 @@ function App() {
         </picture>
         <h1 className="titulo">CalenGo</h1>
         <BotonesHeader></BotonesHeader>
-        
       </header>
       <EntradaPC></EntradaPC>
       <Main></Main>

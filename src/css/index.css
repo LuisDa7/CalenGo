@@ -60,7 +60,7 @@ article picture {
         "entrada"
         "main"
         "footer";
-    grid-template-rows: 2% 1% 94% 4%;
+    grid-template-rows: 2% 1% 96% 4%;
 }
 
 .header {
@@ -276,32 +276,91 @@ article picture {
         }
     }
 }
-
-.invitacionRegistrate2 {
+.precios{
     display: flex;
+    background-image: linear-gradient(180deg, #e8e8e8 5%, #575756 95%);
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    height: 100%;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 1rem;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+  }
+  
+  .headerCard {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #043962;
+  }
+  
+  .price {
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #043962;
+  }
+  
+  .desc {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: #043962;
+  }
+  
+  .lists {
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: #043962;
+  }
+  
+  .lists .list {
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem
+  }
+  
+  .lists .list svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgba(87, 165, 214, 1);
+  }
+  
+  .empezar {
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 45px;
+    background-color: rgba(87, 165, 214, 1);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 220px;
+    height: 55px;
     margin: 0 auto;
-    padding: 10px 0;
-    background-image: url('../../public/Fondos/index/triangulosOscuros.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
 
-    .registrate2 {
-
-        border: 0px;
-        border-radius: 45px;
-        background-color: rgb(87, 165, 214);
-        color: #ffffff;
-        height: 70px;
-        width: 260px;
-    }
-
-    .registrate2:active {
-        border: 2px solid #ffffff;
-    }
+  .empezar:active {
+    border: 2px solid #ffffff;
 }
 
 .footer {
@@ -310,7 +369,7 @@ article picture {
     background-image: url('../../public/Fondos/index/triangulosOscuros.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    box-shadow: 0px 0px 36px 24px rgba(0, 0, 0, 0.5);
 
     h1 {
         font-size: 40px;
@@ -438,7 +497,7 @@ article picture {
             "entrada"
             "main"
             "footer";
-        grid-template-rows: 3% 2% 94% 4%;
+            grid-template-rows: 2% 1% 96% 4%;
     }
 
     .header h1 {
