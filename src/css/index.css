@@ -55,7 +55,6 @@ article picture {
 
 .grid-container {
     display: grid;
-    gap: 10px;
     grid-template-areas:
         "header"
         "entrada"
@@ -234,7 +233,7 @@ article picture {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     background-image: url('../../public/Fondos/index/triangulos.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,8 +281,13 @@ article picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-image: url('../../public/Fondos/index/triangulosOscuros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
     .registrate2 {
 
@@ -303,7 +307,7 @@ article picture {
 .footer {
     grid-area: footer;
     width: 100%;
-    background-image: url('../../public/Fondos/index/triangulos.png');
+    background-image: url('../../public/Fondos/index/triangulosOscuros.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -311,19 +315,22 @@ article picture {
     h1 {
         font-size: 40px;
         margin: 0;
-        color: rgb(71, 71, 71);
+        color: rgb(255, 255, 255);
         text-align: left;
     }
 
     p,
     a {
-        color: rgb(71, 71, 71);
+        color: rgb(255, 255, 255);
     }
 
     .contactanos {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        h2{
+            color: rgb(255, 255, 255);
+        }
     }
 
     .info {

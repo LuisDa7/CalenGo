@@ -50,7 +50,7 @@ export default function Footer(){
         </section>
         <section className="info">
           <article>
-            <img src="./public/logo.svg" alt="Logo de CalenGo " width="150px" />
+            <img src="./public/logoBlanco.svg" alt="Logo de CalenGo " width="130px" />
             <h1>CalenGo</h1>
           </article>
           <article>
