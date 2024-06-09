@@ -66,7 +66,7 @@ export default function Main() {
       </section>
       <section className="main-paraQuien">
         <h1>¿Para quienes es este software?</h1>
-        <article className="conteiner-cards-paraQuienes">
+        <article className="container-cards-paraQuienes">
           <article>
             <img src="./public/iconos/index/paraQuienes/1.png" alt="Imagen de salón de belleza" width="400px" />
             <h2>Salones de belleza</h2>

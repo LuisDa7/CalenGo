@@ -173,7 +173,7 @@
     width: 90%;
     margin: 20px auto;
 
-    .conteiner-cards-paraQuienes article {
+    .container-cards-paraQuienes article {
         margin-top: 50px;
         background-color: #ffffff;
         border-radius: 15px;
@@ -466,7 +466,7 @@
         }
     }
 
-    .invitacionRegistrate {
+    .main-invitacionRegistrate {
         .registrate2 {
             width: 300px;
         }
@@ -489,7 +489,7 @@
             margin-left: 2%;
         }
 
-        .contenedor-botones {
+        .container-botones {
             height: 100%;
             display: flex;
             padding-right: 10px;
@@ -534,7 +534,7 @@
         }
     }
 
-    .paraQuien {
+    .main-paraQuien {
         .contenedorParaQuienes {
             display: flex;
             flex-wrap: wrap;
@@ -543,9 +543,16 @@
         }
     }
 
-    .contenedorCartas {
+    .container-cards-paraQuienes {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 3%;
+    }
+    .container-cards-precios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 3%;
     }
 }
