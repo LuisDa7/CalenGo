@@ -103,10 +103,10 @@
     background-attachment: fixed;
 
     .slider-articulo {
-        height: 80%;
-        width: 80%;
+        max-width: 900px;
         border-radius: 30px;
         overflow: hidden;
+        margin: 5%;
 
         ul {
             display: flex;
