@@ -1,12 +1,12 @@
 export default function Main() {
   return (
     <main className="main">
-      <section className="invitacion">
+      <section className="main-invitacion">
         <h1>Nunca ha sido tan fácil programar citas y gestionar tu negocio</h1>
         <p>Tu negocio necesita un software de agenda moderno y fácil de usar. Además, contamos con muchas otras funciones para ti</p>
       </section>
-      <section className="slider">
-        <article className="sliderArticulo">
+      <section className="main-slider">
+        <article className="slider-articulo">
           <ul>
             <li><img src="./public/iconos/index/slider/1.png" alt="" /></li>
             <li><img src="./public/iconos/index/slider/2.png" alt="" /></li>
@@ -15,7 +15,7 @@ export default function Main() {
           </ul>
         </article>
       </section>
-      <section className="queTiene">
+      <section className="main-queTiene">
         <h1>¿Qué puede hacer CalenGo?</h1>
         <p>Facilita los procesos engorrosos y hace tu negocio más productivo</p>
         <article>
@@ -61,12 +61,12 @@ export default function Main() {
           <p>Tus clientes podrán agendar, cancelar y posponer sus reservaciones en cualquier momento y desde cualquier lugar</p>
         </article>
       </section>
-      <section className="invitacionRegistrate">
+      <section className="main-invitacionRegistrate">
         <button className="registrate2">Regístrate</button>
       </section>
-      <section className="paraQuien">
+      <section className="main-paraQuien">
         <h1>¿Para quienes es este software?</h1>
-        <article className="contenedorParaQuienes">
+        <article className="conteiner-cards-paraQuienes">
           <article>
             <img src="./public/iconos/index/paraQuienes/1.png" alt="Imagen de salón de belleza" width="400px" />
             <h2>Salones de belleza</h2>
@@ -109,12 +109,12 @@ export default function Main() {
           </article>
         </article>
       </section>
-      <section className="precios">
+      <section className="main-precios">
         <h1>Precios</h1>
         <p>CalenGo es gratis para emprendedores, si buscas algo más completo para empresas medianas y grandes, puedes ver nuestros paquetes aquí</p>
-        <section className="contenedorCartas">
-          <article className="card">
-            <article className="headerCard">
+        <section className="container-cards-precios">
+          <article className="card-precios">
+            <article className="header-card-precios">
               <span className="title">Beginner</span>
               <span className="price">Free</span>
             </article>
@@ -141,8 +141,8 @@ export default function Main() {
             </ul>
             <button type="button" className="empezar">Get Started</button>
           </article>
-          <article className="card">
-            <article className="headerCard">
+          <article className="card-precios">
+            <article className="header-card-precios">
               <span className="title">Pro</span>
               <span className="price">3.99$</span>
             </article>
@@ -169,8 +169,8 @@ export default function Main() {
             </ul>
             <button type="button" className="empezar">Get Started</button>
           </article>
-          <article className="card">
-            <article className="headerCard">
+          <article className="card-precios">
+            <article className="header-card-precios">
               <span className="title">Business</span>
               <span className="price">10.99$</span>
             </article>

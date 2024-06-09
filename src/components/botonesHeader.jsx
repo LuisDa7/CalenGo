@@ -17,7 +17,7 @@ export default function BotonesHeader() {
             {(isMovil) ? (
                 <button className="menu"><img src="./public/iconos/index/menu.png" alt="Menú" width="40" /></button>
             ) : (
-                <section className="contenedorBotones">
+                <section className="contenedor-botones">
                     <button className="menu"><img src="./public/iconos/index/menu.png" alt="Menú" width="40" /></button>
                     <button className="registrate">Regístrate</button>
                     <button className="ingresa">Ingresa</button>

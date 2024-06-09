@@ -4,7 +4,7 @@ export default function Footer() {
       <section className="contactanos">
         <h2>Contact us</h2>
         <article>
-          <ul className="wrapper">
+          <ul className="footer-wrapper">
             <li className="icon facebook">
               <span className="tooltip">Facebook</span>
               <svg
